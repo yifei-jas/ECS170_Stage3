@@ -1,0 +1,18 @@
+{
+  "weight_candidates": [
+    "training_best",
+    "last_epoch",
+    "weight_average"
+  ],
+  "batchnorm_candidates": [
+    "as_trained",
+    "fit_only_calibration"
+  ],
+  "inference_candidates": [
+    "flip",
+    "ten_crop"
+  ],
+  "calibration_samples": 45000,
+  "weight_average_requires_calibration": true,
+  "selection_rule": "Validation accuracy then lower validation loss; test excluded"
+}

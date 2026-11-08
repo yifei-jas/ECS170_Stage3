@@ -1,0 +1,167 @@
+{
+  "config": {
+    "dataset": "MNIST",
+    "epochs": 8,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0,
+    "seed": 42,
+    "device": "cuda",
+    "variant": "baseline"
+  },
+  "best_epoch": 8,
+  "validation_loss": 0.040690066079298655,
+  "validation": {
+    "accuracy": 0.988,
+    "precision_macro": 0.9879080747451617,
+    "recall_macro": 0.9879554978444359,
+    "f1_macro": 0.9879081265049884,
+    "precision_weighted": 0.9880277939513957,
+    "recall_weighted": 0.988,
+    "f1_weighted": 0.9879902899622349,
+    "confusion_matrix": [
+      [
+        590,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        672,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        2,
+        589,
+        1,
+        1,
+        0,
+        2,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        3,
+        603,
+        0,
+        2,
+        0,
+        2,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        583,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        536,
+        2,
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        3,
+        1,
+        586,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        3,
+        4,
+        0,
+        2,
+        1,
+        0,
+        615,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        1,
+        1,
+        2,
+        1,
+        0,
+        575,
+        3
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        5,
+        2,
+        0,
+        3,
+        3,
+        579
+      ]
+    ]
+  },
+  "fit_samples": 54000,
+  "validation_samples": 6000,
+  "test_samples": 10000,
+  "parameters": 43130,
+  "training_seconds": 10.875680899713188,
+  "normalization_mean": [
+    0.13073688745498657
+  ],
+  "normalization_std": [
+    0.30819040536880493
+  ],
+  "input_shape": [
+    1,
+    28,
+    28
+  ],
+  "label_offset": 0,
+  "initialization": "PyTorch Conv2d/Linear/BatchNorm defaults",
+  "environment": {
+    "torch": "2.14.1+cu126",
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU"
+  }
+}

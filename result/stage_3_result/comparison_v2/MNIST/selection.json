@@ -1,0 +1,7 @@
+{
+  "dataset": "MNIST",
+  "selected_variant": "deeper",
+  "dataset_sha256": "c328558117745723fe4e49dd7917f00509d99f7a1ec3f8e0c0036e78b9476472",
+  "selection_rule": "Highest validation accuracy, then lower validation loss",
+  "test_not_used_for_selection": true
+}

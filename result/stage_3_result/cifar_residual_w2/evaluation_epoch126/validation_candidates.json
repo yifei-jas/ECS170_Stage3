@@ -1,0 +1,90 @@
+[
+  {
+    "source": "training_best",
+    "epoch": 121,
+    "batchnorm_calibrated": false,
+    "inference_policy": "flip",
+    "validation_accuracy": 0.9178,
+    "validation_loss": 0.25357417216300965
+  },
+  {
+    "source": "training_best",
+    "epoch": 121,
+    "batchnorm_calibrated": false,
+    "inference_policy": "ten_crop",
+    "validation_accuracy": 0.92,
+    "validation_loss": 0.2560463409900665
+  },
+  {
+    "source": "training_best",
+    "epoch": 121,
+    "batchnorm_calibrated": true,
+    "inference_policy": "flip",
+    "validation_accuracy": 0.9122,
+    "validation_loss": 0.4884797318458557
+  },
+  {
+    "source": "training_best",
+    "epoch": 121,
+    "batchnorm_calibrated": true,
+    "inference_policy": "ten_crop",
+    "validation_accuracy": 0.9072,
+    "validation_loss": 0.5184212579727173
+  },
+  {
+    "source": "last_epoch",
+    "epoch": 126,
+    "batchnorm_calibrated": false,
+    "inference_policy": "flip",
+    "validation_accuracy": 0.912,
+    "validation_loss": 0.2768234845638275
+  },
+  {
+    "source": "last_epoch",
+    "epoch": 126,
+    "batchnorm_calibrated": false,
+    "inference_policy": "ten_crop",
+    "validation_accuracy": 0.9112,
+    "validation_loss": 0.2815416342258453
+  },
+  {
+    "source": "last_epoch",
+    "epoch": 126,
+    "batchnorm_calibrated": true,
+    "inference_policy": "flip",
+    "validation_accuracy": 0.9152,
+    "validation_loss": 0.4506907507896423
+  },
+  {
+    "source": "last_epoch",
+    "epoch": 126,
+    "batchnorm_calibrated": true,
+    "inference_policy": "ten_crop",
+    "validation_accuracy": 0.9134,
+    "validation_loss": 0.48051295490264895
+  },
+  {
+    "source": "weight_average",
+    "epoch": 126,
+    "batchnorm_calibrated": true,
+    "inference_policy": "flip",
+    "validation_accuracy": 0.9302,
+    "validation_loss": 0.39122794399261474,
+    "averaged_epochs": [
+      121,
+      126
+    ]
+  },
+  {
+    "source": "weight_average",
+    "epoch": 126,
+    "batchnorm_calibrated": true,
+    "inference_policy": "ten_crop",
+    "validation_accuracy": 0.9274,
+    "validation_loss": 0.42054775648117065,
+    "averaged_epochs": [
+      121,
+      126
+    ]
+  }
+]

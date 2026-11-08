@@ -1,0 +1,7 @@
+{
+  "dataset": "ORL",
+  "selected_variant": "deeper",
+  "dataset_sha256": "94a49cfe24429ccb7caba3439924a30cf5dfbe5fbfa003b7d4edb70d17a7a271",
+  "selection_rule": "Highest validation accuracy, then lower validation loss",
+  "test_not_used_for_selection": true
+}

@@ -1,0 +1,7 @@
+{
+  "dataset": "CIFAR",
+  "selected_variant": "deeper",
+  "dataset_sha256": "04178bcd1198435941ecf94037f09d87f5f9a51ee65bf72b6a497bbfe1c825d4",
+  "selection_rule": "Highest validation accuracy, then lower validation loss",
+  "test_not_used_for_selection": true
+}

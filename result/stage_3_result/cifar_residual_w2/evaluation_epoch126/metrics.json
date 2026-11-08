@@ -1,0 +1,50 @@
+{
+  "config": {
+    "depth": 28,
+    "width": 2,
+    "epochs": 200,
+    "batch_size": 128,
+    "seed": 42,
+    "optimizer": "SGD",
+    "learning_rate": 0.1,
+    "momentum": 0.9,
+    "nesterov": true,
+    "weight_decay": 0.0005,
+    "warmup_epochs": 5,
+    "mixup_alpha": 0.2,
+    "mixup_probability": 0.5,
+    "cutout_size": 16,
+    "horizontal_flip_tta": true,
+    "amp": true,
+    "device": "cuda"
+  },
+  "best_epoch": 126,
+  "validation_accuracy": 0.9302,
+  "validation_loss": 0.39122794399261474,
+  "fit_samples": 45000,
+  "validation_samples": 5000,
+  "parameters": 1467610,
+  "epochs_completed": 126,
+  "postprocessing": {
+    "source": "weight_average",
+    "epoch": 126,
+    "batchnorm_calibrated": true,
+    "inference_policy": "flip",
+    "validation_accuracy": 0.9302,
+    "validation_loss": 0.39122794399261474,
+    "averaged_epochs": [
+      121,
+      126
+    ]
+  },
+  "normalization_mean": [
+    0.49113741517066956,
+    0.48211121559143066,
+    0.44644904136657715
+  ],
+  "normalization_std": [
+    0.24686914682388306,
+    0.24343013763427734,
+    0.2616034150123596
+  ]
+}

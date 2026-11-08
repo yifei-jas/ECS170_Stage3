@@ -1,0 +1,12 @@
+{
+  "source": "weight_average",
+  "epoch": 126,
+  "batchnorm_calibrated": true,
+  "inference_policy": "flip",
+  "validation_accuracy": 0.9302,
+  "validation_loss": 0.39122794399261474,
+  "averaged_epochs": [
+    121,
+    126
+  ]
+}
